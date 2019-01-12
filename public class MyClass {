@@ -1,0 +1,28 @@
+public class MyClass {
+    static void printMsg(String msg) {
+        System.out.println(msg);
+    }
+
+    static void guessMyNumber(Integer num) {
+        double number = Math.floor(Math.random() * 10 );
+        if(number == num) {
+            System.out.println("Congratulation!! You win!!");
+        } else {
+            System.out.println("Game Over!!");
+        }
+
+    }
+
+
+    public static void main(String[] args) {
+        printMsg("Thank you for teaching us Java");
+        guessMyNumber(5);
+
+    }
+
+
+
+
+
+
+}
